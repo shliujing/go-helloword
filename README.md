@@ -2,7 +2,7 @@
 # 学习笔记
 
 学习自：http://www.runoob.com/go/
-
+``
 ## 1-9基础语法在 main.go
 
 ```
@@ -92,3 +92,24 @@ type error interface {
 := 具体是 定义变量+赋值？
 
 ```
+
+## orm
+
+/Users/jingliu/lj-local/code/go/src/go-helloword/orm/hello-orm.go
+
+![](http://i.iamlj.com/18-11-30/91016011.jpg)
+
+## json
+
+https://blog.csdn.net/zxy_666/article/details/80173288
+
+```
+interface{}类型在json.Unmarshal时，会自动将JSON转换为对应的数据类型： 
+JSON的boolean 转换为bool 
+JSON的数值 转换为float64 
+JSON的字符串 转换为string 
+JSON的Array 转换为[]interface{} 
+JSON的Object 转换为map[string]interface{}，也可以转为本身类型 
+JSON的null 转换为nil
+```
+
