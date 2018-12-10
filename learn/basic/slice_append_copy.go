@@ -26,11 +26,13 @@ func main() {
 	printSlice2(numbers1)
 
 
-	//a := []int{1,2,3}
-	//b := []int{5,7,9}
-	//b = append(b,a)
-	//printSlice2(b)
+	//aa
+	a := []int{1,2,3}
+	b := []int{5,7,9}
+	b = append(b,a...)
+	printSlice2(b)
 }
+
 
 func printSlice2(x []int){
 	fmt.Printf("len=%d cap=%d slice=%v\n",len(x),cap(x),x)
