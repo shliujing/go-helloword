@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 )
 type StuRead struct {
-	Name  interface{} `json:"name"`
-	Age   interface{}
+	Name  string `json:"name"`
+	Age   int
 	HIgh  interface{}
 	sex   interface{}
 	Class interface{} `json:"class"`

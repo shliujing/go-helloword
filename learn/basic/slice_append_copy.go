@@ -1,4 +1,4 @@
-package basic
+package main
 
 import "fmt"
 
@@ -24,6 +24,12 @@ func main() {
 	/* 拷贝 numbers 的内容到 numbers1 */
 	copy(numbers1,numbers)
 	printSlice2(numbers1)
+
+
+	//a := []int{1,2,3}
+	//b := []int{5,7,9}
+	//b = append(b,a)
+	//printSlice2(b)
 }
 
 func printSlice2(x []int){
