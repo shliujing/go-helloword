@@ -26,7 +26,7 @@ func main() {
 	printSlice2(numbers1)
 
 
-	//aa
+	//badasda
 	a := []int{1,2,3}
 	b := []int{5,7,9}
 	b = append(b,a...)
